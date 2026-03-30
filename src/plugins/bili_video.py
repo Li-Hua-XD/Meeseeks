@@ -8,7 +8,7 @@ from nonebot.log import logger
 
 # 更新正则表达式：支持 B站 (BV/b23)、YouTube (youtube/youtu.be)、X/Twitter (twitter/x.com)
 video_download = on_regex(
-    r"(video/BV|b23\.tv/|BV[a-zA-Z0-9]{10}|youtube\.com|youtu\.be|twitter\.com|x\.com)"
+    r"(video/BV|b23\.tv/|\bBV1[a-zA-Z0-9]{9}\b|youtube\.com|youtu\.be|twitter\.com|x\.com)"
 )
 
 @video_download.handle()
