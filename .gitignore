@@ -2,6 +2,7 @@
 __pycache__/
 *.mp4
 *.log
+*.m4a
 .env.*
 .DS_Store
 
